@@ -14,6 +14,8 @@ Hello, World.
 
 ### Professional
 
+Here is [the last version of my resume, from 2020](https://github.com/ryantuck/ryantuck.io/blob/master/static/resume.pdf)
+
 - _2020 to Present_ - I currently work as a data engineer at Songspace, where I lead the Data Exchange team responsible for data ingestion and exports. Serverless framework, lambda, pydantic (and typer), functional programming, jq, make, and good old unix pipes.
 - _2015 to 2020_ - My prior employer, Warby Parker, offered me my first official programming job back in 2015, where I went in five years from junior engineer to tech lead of data engineering, focused on Business Intelligence. I did just about everything while there was runway to work on anything, and did really good work. Here's [an interview I did](https://www.codecademy.com/resources/blog/data-engineer-warby-parker/) with Codecademy about some of it. SQL, python, dbt, AWS, GCP, BigQuery, PostgreSQL, Looker.
 - _2012 to 2014_ - My friend Danny Kern and I built the world's best LED rave gear, but [only raised $17k on Kickstarter](https://www.kickstarter.com/projects/litlitlit/halo-rave-gear-revolutionized) and couldn't fund an initial production round. [Here's the Arduino-friendly source code repo](https://github.com/ryantuck/lit-halo) if you want to pick up the torch. Premature optimization is the root of all evil. C++, Arduino, PCB design, electrical engineering - hacking, really.
