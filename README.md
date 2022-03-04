@@ -35,5 +35,9 @@ Hello, World.
 - My [Notes on _4HL_](https://roamresearch.com/#/app/tuck/page/tBiEf8Ghq) a la [Paul Skallas](https://twitter.com/paulskallas)
 - My [Notes on _Superintelligence_ by Nick Bostrom](https://gist.github.com/ryantuck/a6b4b0303eddb3bd250ee97f2bde7f9d) from 2016 (holds up, even scarier now!)
 
+### Etc
+
+- My [Eulogy for my iPhone 7](https://roamresearch.com/#/app/tuck/page/zlTpqAgmh)
+
 
 [`commit history for this file`](https://github.com/ryantuck/ryantuck/commits/master/README.md)
