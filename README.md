@@ -5,7 +5,7 @@ Hello, World.
 ### Technical
 
 - My website is http://ryantuck.io and it's hosted [here on replit.com](https://replit.com/@ryantuck/ryantuck). That links out to all sorts of stuff. [Here](https://github.com/ryantuck/website#readme) is how it's all set up.
-- I've asked [63 questions on Stack Overflow](https://stackoverflow.com/users/1700270/ryantuck?tab=questions) and have also [answered 29](https://stackoverflow.com/users/1700270/ryantuck?tab=answers) - this is probably the best collection of my technical writing. I strongly recommend asking questions online to hone this skill in addition to actually solving your problem by soliciting crowd wisdom. I also strongly recommend paying it forward. '"Man desires not only to be loved, but to be lovely." - Adam Smith' - Russ Roberts
+- I've asked [many questions on Stack Overflow](https://stackoverflow.com/users/1700270/ryantuck?tab=questions) and have also [answered about half that number](https://stackoverflow.com/users/1700270/ryantuck?tab=answers) - this is probably the best collection of my technical writing. I strongly recommend asking questions online to hone this skill in addition to actually solving your problem by soliciting crowd wisdom. I also strongly recommend paying it forward. '"Man desires not only to be loved, but to be lovely." - Adam Smith' - Russ Roberts
 - A few years ago I built a crude Bayesian model for fantasy football in pure python, as an exercise in understanding. [Here's a well-structured ipython notebook demonstrating differentiating great and bad QBs from one another](https://github.com/ryantuck/lombardi/blob/master/bayes_qb_tds.ipynb). It's pretty cool.
 - [108 words translated into 8 different languages](https://github.com/ryantuck/translate-words/blob/master/output.csv) using the Google Translate API
 - My [notes for setting up a new macOS machine](https://gist.github.com/ryantuck/73b8df1b2aa728af01bc47ac364a205a)
@@ -28,6 +28,7 @@ Here is [the last version of my resume, from 2020](https://github.com/ryantuck/r
 - My [Twitter / @ryntck](https://twitter.com/ryntck)
 - My [GitHub Repos](https://github.com/ryantuck?tab=repositories)
 - My [GitHub Gists](https://gist.github.com/ryantuck)
+- [ ] Google Keep
 
 ### Some Structured Thinking
 
@@ -40,6 +41,10 @@ Here is [the last version of my resume, from 2020](https://github.com/ryantuck/r
 ### Etc
 
 - My [Eulogy for my iPhone 7](https://roamresearch.com/#/app/tuck/page/zlTpqAgmh)
+- "VIP is always bettah, Vivian. You just have to be willing to do the work." - Anna Delvey
+
+
+---
 
 
 [`commit history for this file`](https://github.com/ryantuck/ryantuck/commits/master/README.md)
