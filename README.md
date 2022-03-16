@@ -30,6 +30,8 @@ I strongly recommend asking questions online to hone this skill in addition to a
 
 Here is [the last version of my resume, from 2020](https://github.com/ryantuck/ryantuck.io/blob/master/static/resume.pdf)
 
+And [here's a current `resume.yml`](https://github.com/ryantuck/resume/blob/master/resume.yml) while I figure out what else to whittle down to fit an 8.5x11 PDF
+
 ### 2020 to Present - Songspace
 
 I currently work as a data engineer at Songspace, where I lead the Data Exchange team responsible for data ingestion and exports. Serverless framework, lambda, pydantic (and typer), functional programming, jq, make, and good old unix pipes.
