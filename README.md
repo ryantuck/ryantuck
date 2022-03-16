@@ -62,6 +62,7 @@ I attended Northeastern University, studied physics and philosophy, and have a d
 - My [Notes on the Fermi Paradox](https://gist.github.com/ryantuck/a82d7344619644f61978d4eba7ce7c8b)
 - My [Notes on _4HL_](https://roamresearch.com/#/app/tuck/page/tBiEf8Ghq) a la [Paul Skallas](https://twitter.com/paulskallas)
 - My [Notes on _Superintelligence_ by Nick Bostrom](https://gist.github.com/ryantuck/a6b4b0303eddb3bd250ee97f2bde7f9d) from 2016 (holds up, even scarier now!)
+- My [highlights from _The Bullet Journal Method_](notes-bullet-journal.md)
 
 ## Etc
 
