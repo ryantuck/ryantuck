@@ -30,9 +30,9 @@ I strongly recommend asking questions online to hone this skill in addition to a
 
 Here is a [**PDF Resume**](resume-2022.pdf)
 
-### 2020 to Present - Songspace
+### 2020 to 2022 - Songspace
 
-I currently work as a data engineer at Songspace, where I lead the Data Exchange team responsible for data ingestion and exports. Serverless framework, lambda, pydantic (and typer), functional programming, jq, make, and good old unix pipes.
+I worked as a data engineer at Songspace, where I led the Data Exchange team responsible for data ingestion and exports. Serverless framework, lambda, pydantic (and typer), functional programming, jq, make, and good old unix pipes.
 
 ### 2015 to 2020 - Warby Parker
 
