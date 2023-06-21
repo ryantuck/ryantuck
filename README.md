@@ -54,6 +54,7 @@ I attended Northeastern University, studied physics and philosophy, and have a d
 - My [GitHub Repos](https://github.com/ryantuck?tab=repositories)
 - My [GitHub Gists](https://gist.github.com/ryantuck)
 - [ ] Google Keep
+- My [Spotify Playlists](playlists.md)
 
 ## Some Structured Thinking
 
