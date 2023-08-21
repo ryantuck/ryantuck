@@ -22,18 +22,26 @@ def get_token():
     return r.json()["access_token"]
 
 
-def _get_playlists_page(page_num=1):
 
+def _get(url, page_num=0):
     offset = page_num * PAGE_SIZE
-
     token = get_token()
     r = requests.get(
-        url=f"https://api.spotify.com/v1/users/{USER_ID}/playlists",
+        url=url,
         headers={"Authorization": f"Bearer {token}"},
         params={"limit": PAGE_SIZE, "offset": offset},
     )
     r.raise_for_status()
     return r.json()
+
+
+def _get_playlists_page(page_num=0):
+    return _get(
+        url=f"https://api.spotify.com/v1/users/{USER_ID}/playlists",
+        page_num=page_num,
+    )    
+
+
 
 
 def get_playlists():
@@ -50,6 +58,7 @@ def get_playlists():
         time.sleep(3)
 
     return all_playlists
+
 
 
 if __name__ == "__main__":
