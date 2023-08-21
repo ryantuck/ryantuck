@@ -1,9 +1,11 @@
 import json
 import os
+import time
 
 import requests
 
 USER_ID = "1219121420"
+PAGE_SIZE = 50
 
 
 def get_token():
@@ -20,16 +22,34 @@ def get_token():
     return r.json()["access_token"]
 
 
-def get_playlists():
-    # TODO paginate
+def _get_playlists_page(page_num=1):
+
+    offset = page_num * PAGE_SIZE
+
     token = get_token()
     r = requests.get(
         url=f"https://api.spotify.com/v1/users/{USER_ID}/playlists",
         headers={"Authorization": f"Bearer {token}"},
-        params={"limit": 50},
+        params={"limit": PAGE_SIZE, "offset": offset},
     )
     r.raise_for_status()
-    return r.json()["items"]
+    return r.json()
+
+
+def get_playlists():
+    page = 0
+    all_playlists = []
+
+    while True:
+        response = _get_playlists_page(page)
+        batch_playlists = response['items']
+        all_playlists += batch_playlists
+        if len(batch_playlists) < 50:
+            break
+        page += 1
+        time.sleep(3)
+
+    return all_playlists
 
 
 if __name__ == "__main__":
