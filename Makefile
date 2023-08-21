@@ -19,6 +19,9 @@ playlist-tracks.txt : playlist-ids.txt
 liked-songs.jsonl :
 	python spotify.py liked-songs | jq -c > $@
 
+inbox-playlist.jsonl :
+	cat playlist-tracks/4FOzxRG4O4VUVlLAs069iF.jsonl | python transform.py playlist-track | jq -c > $@
+
 # -------------------------------------
 # Almost-ideal setup below for playlist tracks for indeterminate amount of playlists to pull for
 # Don't have API fetch parallelization via make fully down, relying on xargs in the meantime
