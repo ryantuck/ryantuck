@@ -16,7 +16,8 @@ playlist-tracks.txt : playlist-ids.txt
 	rm -f $@
 	cat $< | xargs --verbose -I % sh -c 'python spotify.py playlist-tracks % | jq -c > playlist-tracks/%.jsonl && echo % >> $@'
 
-
+liked-songs.jsonl :
+	python spotify.py liked-songs | jq -c > $@
 
 # -------------------------------------
 # Almost-ideal setup below for playlist tracks for indeterminate amount of playlists to pull for

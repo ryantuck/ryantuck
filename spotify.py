@@ -7,6 +7,7 @@ import requests
 
 USER_ID = "1219121420"
 PAGE_SIZE = 50
+PAGINATION_SLEEP_S = 3
 
 
 def get_token():
@@ -50,6 +51,14 @@ def _get_playlist_tracks(playlist_id, page_num=0):
     )['items']
 
 
+def _get_liked_songs(page_num=0):
+    # TODO this doesn't work using existing method, might need auth?
+    return _get(
+        url=f"https://api.spotify.com/v1/me/tracks",
+        page_num=page_num,
+    )['items']
+
+
 def get_playlists():
     page = 0
     all_results = []
@@ -60,7 +69,22 @@ def get_playlists():
         if len(batch) < PAGE_SIZE:
             break
         page += 1
-        time.sleep(3)
+        time.sleep(PAGINATION_SLEEP_S)
+
+    return all_results
+
+
+def get_liked_songs():
+    page = 0
+    all_results = []
+
+    while True:
+        batch = _get_liked_songs(page_num=page)
+        all_results += batch
+        if len(batch) < PAGE_SIZE:
+            break
+        page += 1
+        time.sleep(PAGINATION_SLEEP_S)
 
     return all_results
 
@@ -75,7 +99,7 @@ def get_playlist_tracks(playlist_id):
         if len(batch) < PAGE_SIZE:
             break
         page += 1
-        time.sleep(3)
+        time.sleep(PAGINATION_SLEEP_S)
 
     return all_results
 
@@ -93,3 +117,8 @@ if __name__ == "__main__":
         tracks = get_playlist_tracks(playlist_id)
         for track in tracks:
             print(json.dumps(track))
+
+    if arg == 'liked-songs':
+        liked_songs = get_liked_songs()
+        for song in liked_songs:
+            print(json.dumps(song))
