@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import time
 
 import requests
@@ -35,33 +36,60 @@ def _get(url, page_num=0):
     return r.json()
 
 
-def _get_playlists_page(page_num=0):
+def _get_playlists(page_num=0):
     return _get(
         url=f"https://api.spotify.com/v1/users/{USER_ID}/playlists",
         page_num=page_num,
-    )    
+    )['items']
 
 
+def _get_playlist_tracks(playlist_id, page_num=0):
+    return _get(
+        url=f"https://api.spotify.com/v1/users/{USER_ID}/playlists/{playlist_id}/tracks",
+        page_num=page_num,
+    )['items']
 
 
 def get_playlists():
     page = 0
-    all_playlists = []
+    all_results = []
 
     while True:
-        response = _get_playlists_page(page)
-        batch_playlists = response['items']
-        all_playlists += batch_playlists
-        if len(batch_playlists) < 50:
+        batch = _get_playlists(page_num=page)
+        all_results += batch
+        if len(batch) < PAGE_SIZE:
             break
         page += 1
         time.sleep(3)
 
-    return all_playlists
+    return all_results
 
+
+def get_playlist_tracks(playlist_id):
+    page = 0
+    all_results = []
+
+    while True:
+        batch = _get_playlist_tracks(playlist_id, page_num=page)
+        all_results += batch
+        if len(batch) < PAGE_SIZE:
+            break
+        page += 1
+        time.sleep(3)
+
+    return all_results
 
 
 if __name__ == "__main__":
-    playlists = get_playlists()
-    for playlist in playlists:
-        print(json.dumps(playlist))
+    arg = sys.argv[1]
+
+    if arg == 'playlists':
+        playlists = get_playlists()
+        for playlist in playlists:
+            print(json.dumps(playlist))
+
+    if arg == 'playlist-tracks':
+        playlist_id = sys.argv[2]
+        tracks = get_playlist_tracks(playlist_id)
+        for track in tracks:
+            print(json.dumps(track))
