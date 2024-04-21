@@ -32,7 +32,7 @@ Here is a [**PDF Resume**](resume-2022.pdf) from 2022.
 
 ### 2022 to present - Horizon3.ai
 
-I am currently (2024-03) managing the backend team of seven at this awesome cybersecurity startup. GraphQL, Neo4j, plus the basics.
+My latest role has been managing the backend team at this series-C cybersecurity startup. GraphQL, Neo4j, etc.
 
 ### 2020 to 2022 - Songspace
 
@@ -57,7 +57,6 @@ I attended Northeastern University, studied physics and philosophy, and have a d
 - My [Twitter / @ryntck](https://twitter.com/ryntck)
 - My [GitHub Repos](https://github.com/ryantuck?tab=repositories)
 - My [GitHub Gists](https://gist.github.com/ryantuck)
-- [ ] Google Keep
 - My [Spotify Playlists](playlists.md)
 
 ## Some Structured Thinking
@@ -73,6 +72,6 @@ I attended Northeastern University, studied physics and philosophy, and have a d
 
 My [Eulogy for my iPhone 7](https://roamresearch.com/#/app/tuck/page/zlTpqAgmh)
 
-> "VIP is always bettah, Vivian. You just have to be willing to do the work." - Anna Delvey
-
 [`commit history for this file`](https://github.com/ryantuck/ryantuck/commits/master/README.md)
+
+> "VIP is always bettah, Vivian. You just have to be willing to do the work." - Anna Delvey
