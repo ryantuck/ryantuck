@@ -5,14 +5,20 @@ Hello, World.
 ![](103A02EE-52E5-4A2A-B71D-667558529965.jpeg)
 
 - [www.ryantuck.io](https://ryantuck.io)
-- [StackOverflow](https://stackoverflow.com/users/1700270/ryantuck)
+- [StackOverflow / @ryantuck](https://stackoverflow.com/users/1700270/ryantuck)
 - [Twitter / @ryntck](https://twitter.com/ryntck)
-- [GitHub Repos](https://github.com/ryantuck?tab=repositories)
-- [GitHub Gists](https://gist.github.com/ryantuck)
+- [GitHub / Repos](https://github.com/ryantuck?tab=repositories)
+- [GitHub / Gists](https://gist.github.com/ryantuck)
 
 ## Professional
 
-Here is a [**PDF Resume**](resume-2022.pdf) from 2022.
+Here is a [**2024 PDF Resume**](https://ryantuck.io/resume.pdf).
+
+Or `curl` it:
+
+```sh
+curl -L ryantuck.io/resume.json | jq
+```
 
 ### 2022 to present - Horizon3.ai
 
