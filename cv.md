@@ -10,9 +10,13 @@ Or `curl` it:
 curl -L ryantuck.io/resume.json | jq
 ```
 
-### 2022 to present - Horizon3.ai
+### 2024 to present - AngelList
 
-My latest role has been managing the backend team at this series-C cybersecurity startup. GraphQL, Neo4j, etc.
+My latest role is doing backend engineering at AngelList. 
+
+### 2022 to 2024 - Horizon3.ai
+
+I worked as a senior engineer and then engineering manager for the backend team at this series-C cybersecurity startup. Python, GraphQL, Neo4j, etc.
 
 ### 2020 to 2022 - Songspace
 
