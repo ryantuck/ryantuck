@@ -14,7 +14,7 @@ Hello, World.
 
 ## Etc
 
-- [Makefile](Makefile) for fetching and building my [Spotify playlists markdown file](playlists.md)
+- [Makefile](https://github.com/ryantuck/ryantuck.github.io/blob/master/spotify/Makefile) for fetching and building a list of all my [Spotify playlists](https://ryantuck.io/spotify/playlists.html)
 - [A crude Bayesian model for fantasy football prediction in pure python](https://github.com/ryantuck/lombardi/blob/master/bayes_qb_tds.ipynb)
 - [108 words translated into 8 different languages](https://github.com/ryantuck/translate-words/blob/master/output.csv) using the Google Translate API
 - [Bingo probabilities in python](https://github.com/ryantuck/bingo/blob/master/scratch.ipynb)
