@@ -2,18 +2,20 @@
 
 Hello, World.
 
-![](103A02EE-52E5-4A2A-B71D-667558529965.jpeg)
-
-## Me around the web, mostly programming shit
+## Me, elsewhere online
 
 - [www.ryantuck.io](https://ryantuck.io)
 - [StackOverflow / @ryantuck](https://stackoverflow.com/users/1700270/ryantuck)
 - [Twitter / @ryntck](https://twitter.com/ryntck)
 - [GitHub / Repos](https://github.com/ryantuck?tab=repositories)
 - [GitHub / Gists](https://gist.github.com/ryantuck)
+- [Tuck's Data Plumbing](http://tucksdataplumbing.com)
 
 ## Etc
 
+- [Cups](https://github.com/ryantuck/cups) - physics simulations of rolling cups
+- [Rock War](https://github.com/ryantuck/rock-war) - board game design
+- [Cellular Automata](https:github.com/ryantuck/cellular-automata) - script for generating simple cellular automata a la Stephen Wolfram
 - [Makefile](https://github.com/ryantuck/ryantuck.github.io/blob/master/spotify/Makefile) for fetching and building a list of all my [Spotify playlists](https://ryantuck.io/spotify/playlists.html)
 - [A crude Bayesian model for fantasy football prediction in pure python](https://github.com/ryantuck/lombardi/blob/master/bayes_qb_tds.ipynb)
 - [108 words translated into 8 different languages](https://github.com/ryantuck/translate-words/blob/master/output.csv) using the Google Translate API
