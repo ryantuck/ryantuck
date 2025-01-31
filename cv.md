@@ -2,7 +2,11 @@
 
 ## Professional
 
-Here is a [**2024 PDF Resume**](https://ryantuck.io/resume.pdf).
+As of 2025-02, I am currently available for full-time or contract work at ryan at ryantuck.io.
+
+### 2025 to ??? - _Your Company Here???_
+
+Here is a [**2025 PDF Resume**](https://ryantuck.io/resume.pdf).
 
 Or `curl` it:
 
@@ -10,9 +14,9 @@ Or `curl` it:
 curl -L ryantuck.io/resume.json | jq
 ```
 
-### 2024 to present - AngelList
+### 2024-07 to 2024-12 - AngelList
 
-My latest role is doing backend engineering at AngelList. 
+I did backend engineering at AngelList as a senior software engineer, working hybrid in NYC. Maintained LLM workloads, monolith, and services using Ruby, TypeScript, React. Laid off for first time in career after four months :( and am optimistic about the future :)
 
 ### 2022 to 2024 - Horizon3.ai
 
